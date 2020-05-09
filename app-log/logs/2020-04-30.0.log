@@ -1,0 +1,1601 @@
+INFO -20:17:38.148 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 3620 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO -20:17:38.150 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO -20:17:38.816 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO -20:17:38.827 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO -20:17:38.828 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO -20:17:38.828 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO -20:17:38.915 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO -20:17:38.916 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 736 ms
+INFO -20:17:39.199 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO -20:17:39.308 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO -20:17:39.327 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO -20:17:39.330 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 2.011 seconds (JVM running for 3.488)
+INFO -20:18:05.449 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO -20:18:08.809 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 19316 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO -20:18:08.811 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO -20:18:09.418 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO -20:18:09.425 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO -20:18:09.426 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO -20:18:09.426 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO -20:18:09.491 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO -20:18:09.491 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 648 ms
+INFO -20:18:09.691 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO -20:18:09.797 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO -20:18:09.816 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO -20:18:09.818 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.866 seconds (JVM running for 2.71)
+INFO -20:37:04.397 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  2020-04-30 20:37:07.583 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 9688 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO  2020-04-30 20:37:07.585 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO  2020-04-30 20:37:08.230 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO  2020-04-30 20:37:08.237 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO  2020-04-30 20:37:08.238 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO  2020-04-30 20:37:08.238 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO  2020-04-30 20:37:08.305 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO  2020-04-30 20:37:08.306 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 691 ms
+INFO  2020-04-30 20:37:08.429 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO  2020-04-30 20:37:08.608 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO  2020-04-30 20:37:08.626 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO  2020-04-30 20:37:08.628 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.903 seconds (JVM running for 2.645)
+INFO  2020-04-30 20:37:41.031 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:37:44.203 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 23252 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:37:44.205 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:37:44.819 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:37:44.826 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:37:44.826 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:37:44.826 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:37:44.896 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:37:44.897 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 659 ms
+INFO 2020-04-30 20:37:45.028 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:37:45.215 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:37:45.235 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:37:45.239 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.898 seconds (JVM running for 2.713)
+INFO 2020-04-30 20:38:41.290 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:38:44.652 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 15400 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:38:44.654 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:38:45.266 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:38:45.272 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:38:45.273 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:38:45.273 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:38:45.339 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:38:45.339 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 658 ms
+INFO 2020-04-30 20:38:45.532 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:38:45.630 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:38:45.648 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:38:45.650 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.825 seconds (JVM running for 2.595)
+INFO 2020-04-30 20:38:51.114 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:38:54.241 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 10256 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:38:54.243 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:38:54.842 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:38:54.848 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:38:54.849 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:38:54.849 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:38:54.919 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:38:54.919 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 645 ms
+INFO 2020-04-30 20:38:55.115 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:38:55.212 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:38:55.230 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:38:55.232 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.841 seconds (JVM running for 2.605)
+INFO 2020-04-30 20:40:09.166 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:40:12.310 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 4272 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:40:12.312 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:40:12.931 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:40:12.938 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:40:12.939 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:40:12.939 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:40:13.006 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:40:13.006 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 666 ms
+INFO 2020-04-30 20:40:13.211 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:40:13.311 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:40:13.331 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:40:13.334 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.898 seconds (JVM running for 2.731)
+INFO 2020-04-30 20:40:46.646 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:40:49.671 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 29596 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:40:49.673 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:40:50.317 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:40:50.324 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:40:50.325 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:40:50.325 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:40:50.392 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:40:50.393 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 689 ms
+INFO 2020-04-30 20:40:50.610 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:40:50.721 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:40:50.738 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:40:50.741 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.901 seconds (JVM running for 2.695)
+INFO 2020-04-30 20:40:55.709 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:40:58.923 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 21552 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:40:58.925 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:40:59.608 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:40:59.615 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:40:59.616 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:40:59.616 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:40:59.684 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:40:59.684 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 727 ms
+INFO 2020-04-30 20:40:59.884 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:40:59.982 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:41:00.002 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:41:00.006 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.989 seconds (JVM running for 2.771)
+INFO 2020-04-30 20:41:08.847 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:41:11.946 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 11716 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:41:11.948 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:41:12.563 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:41:12.569 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:41:12.570 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:41:12.570 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:41:12.637 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:41:12.638 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 661 ms
+INFO 2020-04-30 20:41:12.832 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:41:12.934 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:41:12.952 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:41:12.954 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.886 seconds (JVM running for 2.692)
+INFO 2020-04-30 20:42:21.910 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:42:25.136 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 29300 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:42:25.141 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:42:25.768 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:42:25.775 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:42:25.776 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:42:25.776 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:42:25.842 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:42:25.842 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 673 ms
+INFO 2020-04-30 20:42:26.067 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:42:26.173 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:42:26.191 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:42:26.194 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.92 seconds (JVM running for 2.711)
+INFO 2020-04-30 20:44:47.205 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:44:50.351 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 17208 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:44:50.353 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:44:51.009 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:44:51.016 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:44:51.016 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:44:51.016 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:44:51.085 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:44:51.086 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 704 ms
+INFO 2020-04-30 20:44:51.272 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:44:51.378 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:44:51.396 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:44:51.398 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.895 seconds (JVM running for 2.704)
+INFO 2020-04-30 20:50:09.984 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:50:13.069 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 14428 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:50:13.071 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:50:13.678 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:50:13.685 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:50:13.686 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:50:13.686 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:50:13.753 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:50:13.753 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 654 ms
+INFO 2020-04-30 20:50:13.945 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:50:14.048 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:50:14.068 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:50:14.070 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.843 seconds (JVM running for 2.627)
+INFO 2020-04-30 20:52:29.548 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:52:33.012 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 2284 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:52:33.014 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:52:33.758 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:52:33.764 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:52:33.765 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:52:33.765 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:52:33.834 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:52:33.834 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 782 ms
+INFO 2020-04-30 20:52:34.028 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:52:34.131 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:52:34.149 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:52:34.151 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 2.124 seconds (JVM running for 3.07)
+INFO 2020-04-30 20:57:03.075 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:57:06.979 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 27344 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:57:06.981 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:57:07.660 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:57:07.668 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:57:07.668 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:57:07.668 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:57:07.751 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:57:07.752 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 735 ms
+INFO 2020-04-30 20:57:07.972 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:57:08.086 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:57:08.106 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:57:08.108 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 2.052 seconds (JVM running for 3.06)
+INFO 2020-04-30 20:57:42.755 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:57:46.213 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 26012 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:57:46.217 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:57:46.873 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:57:46.881 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:57:46.881 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:57:46.882 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:57:46.956 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:57:46.956 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 708 ms
+INFO 2020-04-30 20:57:47.155 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:57:47.257 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:57:47.274 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:57:47.276 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 2.145 seconds (JVM running for 2.962)
+INFO 2020-04-30 20:57:58.459 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:58:02.092 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 17380 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:58:02.094 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:58:02.751 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:58:02.758 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:58:02.758 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:58:02.759 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:58:02.830 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:58:02.830 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 706 ms
+INFO 2020-04-30 20:58:03.022 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:58:03.122 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:58:03.140 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:58:03.143 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.949 seconds (JVM running for 2.818)
+INFO 2020-04-30 20:58:34.270 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:58:37.594 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 1252 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 20:58:37.597 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 20:58:38.312 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 20:58:38.318 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:58:38.319 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 20:58:38.319 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 20:58:38.394 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 20:58:38.395 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 766 ms
+INFO 2020-04-30 20:58:38.604 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 20:58:38.706 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 20:58:38.726 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 20:58:38.728 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 2.121 seconds (JVM running for 2.955)
+INFO 2020-04-30 21:01:44.830 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:01:48.103 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 29136 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 21:01:48.106 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 21:01:48.804 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 21:01:48.814 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:01:48.815 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 21:01:48.815 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:01:48.897 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:01:48.897 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 758 ms
+INFO 2020-04-30 21:01:49.115 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:01:49.221 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:01:49.239 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 21:01:49.241 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 2.068 seconds (JVM running for 2.939)
+INFO 2020-04-30 21:10:13.080 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:10:16.365 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 25356 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 21:10:16.367 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 21:10:16.998 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 21:10:17.008 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:10:17.008 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 21:10:17.009 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:10:17.091 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:10:17.092 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 693 ms
+INFO 2020-04-30 21:10:17.293 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:10:17.393 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:10:17.411 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 21:10:17.413 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.89 seconds (JVM running for 2.71)
+INFO 2020-04-30 21:28:44.124 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:28:47.901 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 25552 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 21:28:47.903 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 21:28:48.568 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 21:28:48.575 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:28:48.576 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 21:28:48.576 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:28:48.657 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:28:48.657 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 721 ms
+INFO 2020-04-30 21:28:48.866 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:28:48.986 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:28:49.005 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 21:28:49.007 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 2.069 seconds (JVM running for 3.171)
+INFO 2020-04-30 21:42:57.528 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:43:01.018 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 8540 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 21:43:01.021 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 21:43:01.700 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 21:43:01.708 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:43:01.709 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 21:43:01.709 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:43:01.794 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:43:01.794 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 739 ms
+INFO 2020-04-30 21:43:01.992 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:43:02.091 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:43:02.110 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 21:43:02.112 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.991 seconds (JVM running for 2.98)
+INFO 2020-04-30 21:45:11.046 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:45:14.483 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 28504 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 21:45:14.485 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 21:45:15.172 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 21:45:15.180 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:45:15.180 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 21:45:15.180 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:45:15.270 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:45:15.271 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 755 ms
+INFO 2020-04-30 21:45:15.410 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:45:15.571 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:45:15.591 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 21:45:15.593 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 2.092 seconds (JVM running for 2.968)
+INFO 2020-04-30 21:49:17.030 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:49:20.193 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 26116 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 21:49:20.195 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 21:49:20.874 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 21:49:20.881 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:49:20.882 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 21:49:20.882 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:49:20.954 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:49:20.954 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 726 ms
+INFO 2020-04-30 21:49:21.155 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:49:21.260 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:49:21.277 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 21:49:21.280 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.971 seconds (JVM running for 2.775)
+INFO 2020-04-30 21:49:43.351 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:49:46.569 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 26972 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 21:49:46.571 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 21:49:47.217 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 21:49:47.224 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:49:47.224 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 21:49:47.225 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:49:47.292 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:49:47.292 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 690 ms
+INFO 2020-04-30 21:49:47.506 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:49:47.610 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:49:47.628 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 21:49:47.630 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.944 seconds (JVM running for 2.724)
+INFO 2020-04-30 21:53:00.466 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:53:03.798 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 29484 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 21:53:03.801 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 21:53:04.448 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 21:53:04.455 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:53:04.456 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 21:53:04.456 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:53:04.524 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:53:04.525 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 692 ms
+INFO 2020-04-30 21:53:04.731 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:53:04.832 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:53:04.851 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 21:53:04.853 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.919 seconds (JVM running for 2.71)
+INFO 2020-04-30 21:54:51.960 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:54:55.149 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 1756 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 21:54:55.152 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 21:54:55.816 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 21:54:55.824 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:54:55.826 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 21:54:55.826 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:54:55.907 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:54:55.908 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 723 ms
+INFO 2020-04-30 21:54:56.118 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:54:56.220 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 21:54:56.236 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 21:54:56.239 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.967 seconds (JVM running for 2.793)
+INFO 2020-04-30 22:00:24.630 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:00:31.262 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 20672 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:00:31.264 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:00:31.706 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+ERROR2020-04-30 22:00:31.759 [main] o.s.boot.SpringApplication-Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration.restTemplateBuilder
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:184)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.com.example.demo.DemoApplication.main(com.example.demo.com.example.demo.DemoApplication.java:10)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1605)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:494)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:223)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:213)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:167)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:142)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/transaction/ReactiveTransactionManager
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.transaction.ReactiveTransactionManager
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 common frames omitted
+WARN 2020-04-30 22:00:31.762 [main] o.s.boot.SpringApplication-Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1605)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:616)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:608)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.com.example.demo.DemoApplication.main(com.example.demo.com.example.demo.DemoApplication.java:10)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/transaction/ReactiveTransactionManager
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.transaction.ReactiveTransactionManager
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 25 common frames omitted
+INFO 2020-04-30 22:04:08.511 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 10964 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:04:08.513 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:04:08.876 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:04:09.230 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:04:09.238 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:04:09.238 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:04:09.238 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:04:09.314 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:04:09.314 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 771 ms
+INFO 2020-04-30 22:04:09.501 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2020-04-30 22:04:09.810 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [liquibase.integration.spring.SpringLiquibase]: Factory method 'liquibase' threw exception; nested exception is java.lang.NoSuchMethodError: liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+INFO 2020-04-30 22:04:09.811 [main] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:04:09.813 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 22:04:09.820 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 22:04:09.826 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration.liquibase(LiquibaseAutoConfiguration.java:105)
+
+The following method did not exist:
+
+    liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+
+The method's class, liquibase.integration.spring.SpringLiquibase, is available from the following locations:
+
+    jar:file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar!/liquibase/integration/spring/SpringLiquibase.class
+
+It was loaded from the following location:
+
+    file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of liquibase.integration.spring.SpringLiquibase
+
+INFO 2020-04-30 22:08:25.484 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 29888 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:08:25.487 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:08:25.914 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:08:26.323 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:08:26.330 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:08:26.330 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:08:26.330 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:08:26.395 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:08:26.395 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 839 ms
+INFO 2020-04-30 22:08:26.519 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:08:26.756 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:08:26.782 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 22:08:26.786 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.786 seconds (JVM running for 2.505)
+INFO 2020-04-30 22:08:42.968 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:08:49.341 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 19188 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:08:49.343 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:08:49.718 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:08:50.052 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:08:50.059 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:08:50.060 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:08:50.060 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:08:50.132 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:08:50.132 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 760 ms
+INFO 2020-04-30 22:08:50.323 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2020-04-30 22:08:50.647 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [liquibase.integration.spring.SpringLiquibase]: Factory method 'liquibase' threw exception; nested exception is java.lang.NoSuchMethodError: liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+INFO 2020-04-30 22:08:50.648 [main] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:08:50.650 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 22:08:50.657 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 22:08:50.663 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration.liquibase(LiquibaseAutoConfiguration.java:105)
+
+The following method did not exist:
+
+    liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+
+The method's class, liquibase.integration.spring.SpringLiquibase, is available from the following locations:
+
+    jar:file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar!/liquibase/integration/spring/SpringLiquibase.class
+
+It was loaded from the following location:
+
+    file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of liquibase.integration.spring.SpringLiquibase
+
+INFO 2020-04-30 22:09:06.952 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 7328 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:09:06.954 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:09:07.327 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:09:07.652 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:09:07.659 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:09:07.660 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:09:07.660 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:09:07.731 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:09:07.732 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 748 ms
+INFO 2020-04-30 22:09:07.915 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2020-04-30 22:09:08.209 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [liquibase.integration.spring.SpringLiquibase]: Factory method 'liquibase' threw exception; nested exception is java.lang.NoSuchMethodError: liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+INFO 2020-04-30 22:09:08.210 [main] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:09:08.212 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 22:09:08.219 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 22:09:08.225 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration.liquibase(LiquibaseAutoConfiguration.java:105)
+
+The following method did not exist:
+
+    liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+
+The method's class, liquibase.integration.spring.SpringLiquibase, is available from the following locations:
+
+    jar:file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar!/liquibase/integration/spring/SpringLiquibase.class
+
+It was loaded from the following location:
+
+    file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of liquibase.integration.spring.SpringLiquibase
+
+INFO 2020-04-30 22:09:16.124 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 17308 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:09:16.128 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:09:16.568 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+ERROR2020-04-30 22:09:16.616 [main] o.s.boot.SpringApplication-Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration.restTemplateBuilder
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:184)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.com.example.demo.DemoApplication.main(com.example.demo.com.example.demo.DemoApplication.java:10)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1605)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:494)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:223)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:213)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:167)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:142)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/transaction/ReactiveTransactionManager
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.transaction.ReactiveTransactionManager
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 common frames omitted
+WARN 2020-04-30 22:09:16.618 [main] o.s.boot.SpringApplication-Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1605)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:616)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:608)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.com.example.demo.DemoApplication.main(com.example.demo.com.example.demo.DemoApplication.java:10)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/transaction/ReactiveTransactionManager
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.transaction.ReactiveTransactionManager
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 25 common frames omitted
+INFO 2020-04-30 22:12:27.550 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 20768 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:12:27.552 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:12:27.933 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+ERROR2020-04-30 22:12:27.980 [main] o.s.boot.SpringApplication-Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration.restTemplateBuilder
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:184)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.com.example.demo.DemoApplication.main(com.example.demo.com.example.demo.DemoApplication.java:10)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1605)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:494)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:223)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:213)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:167)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:142)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/transaction/ReactiveTransactionManager
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.transaction.ReactiveTransactionManager
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 common frames omitted
+WARN 2020-04-30 22:12:27.982 [main] o.s.boot.SpringApplication-Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1605)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:616)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:608)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.com.example.demo.DemoApplication.main(com.example.demo.com.example.demo.DemoApplication.java:10)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/transaction/ReactiveTransactionManager
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.transaction.ReactiveTransactionManager
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 25 common frames omitted
+INFO 2020-04-30 22:12:35.804 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 29220 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:12:35.806 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 22:12:36.520 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:12:36.526 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:12:36.527 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:12:36.527 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:12:36.607 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:12:36.607 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 771 ms
+INFO 2020-04-30 22:12:36.795 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:12:36.889 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:12:36.906 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 22:12:36.908 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.856 seconds (JVM running for 2.533)
+INFO 2020-04-30 22:12:46.708 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:12:50.966 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 3312 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:12:50.969 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 22:12:51.702 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:12:51.708 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:12:51.709 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:12:51.709 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:12:51.776 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:12:51.776 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 775 ms
+INFO 2020-04-30 22:12:51.967 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2020-04-30 22:12:52.200 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [liquibase.integration.spring.SpringLiquibase]: Factory method 'liquibase' threw exception; nested exception is java.lang.NoSuchMethodError: liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+INFO 2020-04-30 22:12:52.201 [main] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:12:52.203 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 22:12:52.210 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 22:12:52.216 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration.liquibase(LiquibaseAutoConfiguration.java:105)
+
+The following method did not exist:
+
+    liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+
+The method's class, liquibase.integration.spring.SpringLiquibase, is available from the following locations:
+
+    jar:file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar!/liquibase/integration/spring/SpringLiquibase.class
+
+It was loaded from the following location:
+
+    file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of liquibase.integration.spring.SpringLiquibase
+
+INFO 2020-04-30 22:13:00.008 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 28420 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:13:00.011 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 22:13:00.679 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:13:00.685 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:13:00.685 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:13:00.686 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:13:00.754 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:13:00.754 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 713 ms
+INFO 2020-04-30 22:13:00.944 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2020-04-30 22:13:01.214 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [liquibase.integration.spring.SpringLiquibase]: Factory method 'liquibase' threw exception; nested exception is java.lang.NoSuchMethodError: liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+INFO 2020-04-30 22:13:01.215 [main] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:13:01.217 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 22:13:01.225 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 22:13:01.230 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration.liquibase(LiquibaseAutoConfiguration.java:105)
+
+The following method did not exist:
+
+    liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+
+The method's class, liquibase.integration.spring.SpringLiquibase, is available from the following locations:
+
+    jar:file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar!/liquibase/integration/spring/SpringLiquibase.class
+
+It was loaded from the following location:
+
+    file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of liquibase.integration.spring.SpringLiquibase
+
+INFO 2020-04-30 22:14:09.241 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 19008 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:14:09.243 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 22:14:09.960 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:14:09.967 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:14:09.968 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:14:09.968 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:14:10.035 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:14:10.035 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 759 ms
+INFO 2020-04-30 22:14:10.187 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2020-04-30 22:14:10.420 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [liquibase.integration.spring.SpringLiquibase]: Factory method 'liquibase' threw exception; nested exception is java.lang.NoSuchMethodError: liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+INFO 2020-04-30 22:14:10.421 [main] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:14:10.423 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 22:14:10.431 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 22:14:10.436 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration.liquibase(LiquibaseAutoConfiguration.java:105)
+
+The following method did not exist:
+
+    liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+
+The method's class, liquibase.integration.spring.SpringLiquibase, is available from the following locations:
+
+    jar:file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar!/liquibase/integration/spring/SpringLiquibase.class
+
+It was loaded from the following location:
+
+    file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of liquibase.integration.spring.SpringLiquibase
+
+INFO 2020-04-30 22:14:18.112 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 21536 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:14:18.114 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 22:14:18.763 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:14:18.769 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:14:18.770 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:14:18.770 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:14:18.828 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:14:18.828 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 661 ms
+INFO 2020-04-30 22:14:18.927 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:14:19.063 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:14:19.078 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 22:14:19.079 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.323 seconds (JVM running for 1.946)
+INFO 2020-04-30 22:16:36.297 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 15524 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:16:36.300 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 22:16:36.870 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:16:36.875 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:16:36.875 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:16:36.876 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:16:36.942 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:16:36.942 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 611 ms
+INFO 2020-04-30 22:16:37.044 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:16:37.180 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:16:37.195 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 22:16:37.198 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.655 seconds (JVM running for 2.389)
+INFO 2020-04-30 22:17:00.913 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 20180 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:17:00.914 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-04-30 22:17:01.580 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:17:01.586 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:17:01.586 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:17:01.586 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:17:01.655 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:17:01.655 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 716 ms
+INFO 2020-04-30 22:17:01.774 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:17:01.907 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:17:01.922 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 22:17:01.924 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 1.717 seconds (JVM running for 2.4)
+INFO 2020-04-30 22:27:01.237 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 11104 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:27:01.239 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:27:01.554 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:27:01.829 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:27:01.835 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:27:01.835 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:27:01.835 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:27:01.899 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:27:01.900 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 634 ms
+INFO 2020-04-30 22:27:02.040 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2020-04-30 22:27:02.313 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [liquibase.integration.spring.SpringLiquibase]: Factory method 'liquibase' threw exception; nested exception is java.lang.NoSuchMethodError: liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+INFO 2020-04-30 22:27:02.314 [main] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:27:02.316 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 22:27:02.322 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 22:27:02.328 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration.liquibase(LiquibaseAutoConfiguration.java:105)
+
+The following method did not exist:
+
+    liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+
+The method's class, liquibase.integration.spring.SpringLiquibase, is available from the following locations:
+
+    jar:file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar!/liquibase/integration/spring/SpringLiquibase.class
+
+It was loaded from the following location:
+
+    file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of liquibase.integration.spring.SpringLiquibase
+
+INFO 2020-04-30 22:30:58.298 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 7044 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:30:58.300 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:30:58.706 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:30:59.040 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:30:59.047 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:30:59.047 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:30:59.048 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:30:59.119 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:30:59.119 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 778 ms
+INFO 2020-04-30 22:30:59.299 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2020-04-30 22:30:59.593 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [liquibase.integration.spring.SpringLiquibase]: Factory method 'liquibase' threw exception; nested exception is java.lang.NoSuchMethodError: liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+INFO 2020-04-30 22:30:59.593 [main] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:30:59.595 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 22:30:59.602 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 22:30:59.606 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration.liquibase(LiquibaseAutoConfiguration.java:105)
+
+The following method did not exist:
+
+    liquibase.integration.spring.SpringLiquibase.setLiquibaseSchema(Ljava/lang/String;)V
+
+The method's class, liquibase.integration.spring.SpringLiquibase, is available from the following locations:
+
+    jar:file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar!/liquibase/integration/spring/SpringLiquibase.class
+
+It was loaded from the following location:
+
+    file:/D:/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of liquibase.integration.spring.SpringLiquibase
+
+INFO 2020-04-30 22:32:26.029 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 15648 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:32:26.032 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:32:26.419 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:32:26.749 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:32:26.755 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:32:26.756 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:32:26.756 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:32:26.830 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:32:26.830 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 761 ms
+INFO 2020-04-30 22:32:26.945 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:32:27.187 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-04-30 22:32:27.616 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-04-30 22:32:28.384 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:32:28.401 [main] liquibase.executor.jvm.JdbcExecutor-CREATE TABLE test.DATABASECHANGELOGLOCK (ID INT NOT NULL, `LOCKED` BIT(1) NOT NULL, LOCKGRANTED datetime NULL, LOCKEDBY VARCHAR(255) NULL, CONSTRAINT PK_DATABASECHANGELOGLOCK PRIMARY KEY (ID))
+INFO 2020-04-30 22:32:28.465 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:32:28.480 [main] liquibase.executor.jvm.JdbcExecutor-DELETE FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:32:28.482 [main] liquibase.executor.jvm.JdbcExecutor-INSERT INTO test.DATABASECHANGELOGLOCK (ID, `LOCKED`) VALUES (1, 0)
+INFO 2020-04-30 22:32:28.489 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-04-30 22:32:28.498 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-04-30 22:32:29.619 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-04-30 22:32:29.633 [main] l.c.StandardChangeLogHistoryService-Creating database history table with name: test.DATABASECHANGELOG
+INFO 2020-04-30 22:32:29.634 [main] liquibase.executor.jvm.JdbcExecutor-CREATE TABLE test.DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED datetime NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35) NULL, `DESCRIPTION` VARCHAR(255) NULL, COMMENTS VARCHAR(255) NULL, TAG VARCHAR(255) NULL, LIQUIBASE VARCHAR(20) NULL, CONTEXTS VARCHAR(255) NULL, LABELS VARCHAR(255) NULL, DEPLOYMENT_ID VARCHAR(10) NULL)
+INFO 2020-04-30 22:32:29.652 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-04-30 22:32:29.654 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-04-30 22:32:29.654 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-04-30 22:32:29.656 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:32:29.661 [main] liquibase.executor.jvm.JdbcExecutor-CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+INFO 2020-04-30 22:32:29.676 [main] liquibase.changelog.ChangeSet-Custom SQL executed
+INFO 2020-04-30 22:32:29.676 [main] liquibase.changelog.ChangeSet-ChangeSet liquibase/changelog/changelog-tyler-1.0.sql::raw::includeAll ran successfully in 16ms
+INFO 2020-04-30 22:32:29.677 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MAX(ORDEREXECUTED) FROM test.DATABASECHANGELOG
+INFO 2020-04-30 22:32:29.678 [main] liquibase.executor.jvm.JdbcExecutor-INSERT INTO test.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('raw', 'includeAll', 'liquibase/changelog/changelog-tyler-1.0.sql', NOW(), 1, '8:8b745fa14527874541d467010249eb47', 'sql', '', 'EXECUTED', NULL, NULL, '3.8.7', '8257149658')
+INFO 2020-04-30 22:32:29.684 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-04-30 22:32:29.723 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:32:29.740 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 22:32:29.742 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 4.277 seconds (JVM running for 4.957)
+INFO 2020-04-30 22:32:46.094 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-04-30 22:32:46.099 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-04-30 22:32:46.099 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:32:52.305 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 18756 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:32:52.307 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:32:52.767 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:32:53.204 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:32:53.213 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:32:53.213 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:32:53.214 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:32:53.296 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:32:53.296 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 953 ms
+INFO 2020-04-30 22:32:53.423 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:32:53.668 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-04-30 22:32:54.102 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-04-30 22:32:54.837 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:32:54.842 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:32:54.845 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-04-30 22:32:54.854 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-04-30 22:32:55.898 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-04-30 22:32:55.961 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-04-30 22:32:55.962 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-04-30 22:32:55.964 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-04-30 22:32:55.964 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-04-30 22:32:55.970 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-04-30 22:32:56.009 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:32:56.026 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 22:32:56.028 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 4.392 seconds (JVM running for 5.305)
+INFO 2020-04-30 22:35:18.343 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-04-30 22:35:18.378 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-04-30 22:35:18.379 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:35:21.341 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 10300 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:35:21.343 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:35:21.729 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:35:22.081 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:35:22.088 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:35:22.089 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:35:22.089 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:35:22.176 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:35:22.177 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 798 ms
+INFO 2020-04-30 22:35:22.296 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:35:22.549 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-04-30 22:35:22.991 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-04-30 22:35:23.759 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:35:23.767 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:35:23.769 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-04-30 22:35:23.779 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-04-30 22:35:24.895 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-04-30 22:35:24.946 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-04-30 22:35:24.948 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-04-30 22:35:24.949 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-04-30 22:35:24.950 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-04-30 22:35:24.956 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-04-30 22:35:24.995 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:35:25.013 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 22:35:25.016 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 4.254 seconds (JVM running for 5.091)
+INFO 2020-04-30 22:43:08.857 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-04-30 22:43:08.865 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-04-30 22:43:08.866 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:43:11.731 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 24180 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:43:11.734 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:43:12.103 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:43:12.443 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:43:12.450 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:43:12.451 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:43:12.451 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:43:12.548 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:43:12.548 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 781 ms
+INFO 2020-04-30 22:43:12.666 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:43:12.903 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-04-30 22:43:13.323 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-04-30 22:43:14.066 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:43:14.072 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:43:14.074 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-04-30 22:43:14.084 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-04-30 22:43:15.142 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-04-30 22:43:15.194 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-04-30 22:43:15.195 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-04-30 22:43:15.197 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-04-30 22:43:15.197 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-04-30 22:43:15.203 [main] liquibase.executor.jvm.JdbcExecutor-CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8
+ERROR2020-04-30 22:43:15.214 [main] liquibase.changelog.ChangeSet-Change Set liquibase/changelog/changelog-tyler-1.0.sql::1.0::tyler failed.  Error: Table 't_think_user' already exists [Failed SQL: (1050) CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8]
+INFO 2020-04-30 22:43:15.218 [main] l.lockservice.StandardLockService-Successfully released change log lock
+WARN 2020-04-30 22:43:15.219 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Invocation of init method failed; nested exception is liquibase.exception.MigrationFailedException: Migration failed for change set liquibase/changelog/changelog-tyler-1.0.sql::1.0::tyler:
+     Reason: liquibase.exception.DatabaseException: Table 't_think_user' already exists [Failed SQL: (1050) CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8]
+INFO 2020-04-30 22:43:15.219 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-04-30 22:43:15.222 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-04-30 22:43:15.223 [main] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:43:15.225 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 22:43:15.232 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 22:43:15.241 [main] o.s.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Invocation of init method failed; nested exception is liquibase.exception.MigrationFailedException: Migration failed for change set liquibase/changelog/changelog-tyler-1.0.sql::1.0::tyler:
+     Reason: liquibase.exception.DatabaseException: Table 't_think_user' already exists [Failed SQL: (1050) CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.com.example.demo.DemoApplication.main(com.example.demo.com.example.demo.DemoApplication.java:11)
+Caused by: liquibase.exception.MigrationFailedException: Migration failed for change set liquibase/changelog/changelog-tyler-1.0.sql::1.0::tyler:
+     Reason: liquibase.exception.DatabaseException: Table 't_think_user' already exists [Failed SQL: (1050) CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:646)
+	at liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:53)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:83)
+	at liquibase.Liquibase.update(Liquibase.java:202)
+	at liquibase.Liquibase.update(Liquibase.java:179)
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:366)
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 18 common frames omitted
+Caused by: liquibase.exception.DatabaseException: Table 't_think_user' already exists [Failed SQL: (1050) CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:402)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:59)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:131)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1276)
+	at liquibase.database.AbstractJdbcDatabase.executeStatements(AbstractJdbcDatabase.java:1258)
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:609)
+	... 26 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Table 't_think_user' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:398)
+	... 31 common frames omitted
+INFO 2020-04-30 22:44:51.833 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 11908 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:44:51.836 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:44:52.211 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:44:52.537 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:44:52.544 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:44:52.544 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:44:52.544 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:44:52.620 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:44:52.620 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 751 ms
+INFO 2020-04-30 22:44:52.736 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:44:52.976 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-04-30 22:44:53.375 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-04-30 22:44:54.084 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:44:54.090 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:44:54.093 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-04-30 22:44:54.102 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-04-30 22:44:55.129 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-04-30 22:44:55.191 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-04-30 22:44:55.192 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-04-30 22:44:55.194 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-04-30 22:44:55.194 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-04-30 22:44:55.202 [main] liquibase.executor.jvm.JdbcExecutor-CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8
+ERROR2020-04-30 22:44:55.215 [main] liquibase.changelog.ChangeSet-Change Set liquibase/changelog/changelog-tyler-1.0.sql::1.0::tyler failed.  Error: Table 't_think_user' already exists [Failed SQL: (1050) CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8]
+INFO 2020-04-30 22:44:55.217 [main] l.lockservice.StandardLockService-Successfully released change log lock
+WARN 2020-04-30 22:44:55.218 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Invocation of init method failed; nested exception is liquibase.exception.MigrationFailedException: Migration failed for change set liquibase/changelog/changelog-tyler-1.0.sql::1.0::tyler:
+     Reason: liquibase.exception.DatabaseException: Table 't_think_user' already exists [Failed SQL: (1050) CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8]
+INFO 2020-04-30 22:44:55.219 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-04-30 22:44:55.221 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-04-30 22:44:55.222 [main] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:44:55.224 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 22:44:55.232 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 22:44:55.238 [main] o.s.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Invocation of init method failed; nested exception is liquibase.exception.MigrationFailedException: Migration failed for change set liquibase/changelog/changelog-tyler-1.0.sql::1.0::tyler:
+     Reason: liquibase.exception.DatabaseException: Table 't_think_user' already exists [Failed SQL: (1050) CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.com.example.demo.DemoApplication.main(com.example.demo.com.example.demo.DemoApplication.java:11)
+Caused by: liquibase.exception.MigrationFailedException: Migration failed for change set liquibase/changelog/changelog-tyler-1.0.sql::1.0::tyler:
+     Reason: liquibase.exception.DatabaseException: Table 't_think_user' already exists [Failed SQL: (1050) CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:646)
+	at liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:53)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:83)
+	at liquibase.Liquibase.update(Liquibase.java:202)
+	at liquibase.Liquibase.update(Liquibase.java:179)
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:366)
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 18 common frames omitted
+Caused by: liquibase.exception.DatabaseException: Table 't_think_user' already exists [Failed SQL: (1050) CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:402)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:59)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:131)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1276)
+	at liquibase.database.AbstractJdbcDatabase.executeStatements(AbstractJdbcDatabase.java:1258)
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:609)
+	... 26 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Table 't_think_user' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:398)
+	... 31 common frames omitted
+INFO 2020-04-30 22:45:11.637 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 5912 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 22:45:11.639 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 22:45:12.081 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 22:45:12.431 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 22:45:12.438 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:45:12.439 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 22:45:12.439 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:45:12.515 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:45:12.515 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 842 ms
+INFO 2020-04-30 22:45:12.631 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:45:12.876 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-04-30 22:45:13.305 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-04-30 22:45:14.036 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:45:14.042 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-04-30 22:45:14.044 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-04-30 22:45:14.053 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-04-30 22:45:15.135 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-04-30 22:45:15.196 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-04-30 22:45:15.198 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-04-30 22:45:15.199 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-04-30 22:45:15.199 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-04-30 22:45:15.204 [main] liquibase.executor.jvm.JdbcExecutor-CREATE TABLE t_think_user (
+    id bigint not null AUTO_INCREMENT,
+    user_name varchar(20) not null,
+    real_name varchar(20) null,
+    primary key (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8
+INFO 2020-04-30 22:45:15.224 [main] liquibase.changelog.ChangeSet-Custom SQL executed
+INFO 2020-04-30 22:45:15.224 [main] liquibase.changelog.ChangeSet-ChangeSet liquibase/changelog/changelog-tyler-1.0.sql::1.0::tyler ran successfully in 22ms
+INFO 2020-04-30 22:45:15.225 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MAX(ORDEREXECUTED) FROM test.DATABASECHANGELOG
+INFO 2020-04-30 22:45:15.226 [main] liquibase.executor.jvm.JdbcExecutor-INSERT INTO test.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('1.0', 'tyler', 'liquibase/changelog/changelog-tyler-1.0.sql', NOW(), 1, '8:561e96a52249e6bebae71b70adb61e50', 'sql', '', 'EXECUTED', NULL, NULL, '3.8.7', '8257915200')
+INFO 2020-04-30 22:45:15.231 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-04-30 22:45:15.269 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 22:45:15.285 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-04-30 22:45:15.287 [main] com.example.demo.com.example.demo.DemoApplication-Started com.example.demo.com.example.demo.DemoApplication in 4.173 seconds (JVM running for 4.859)
+INFO 2020-04-30 23:23:35.160 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-04-30 23:23:35.176 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-04-30 23:23:35.177 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 23:23:39.353 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 1292 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 23:23:39.356 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 23:23:39.759 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 23:23:40.133 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 23:23:40.141 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 23:23:40.141 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 23:23:40.141 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 23:23:40.223 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 23:23:40.223 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 828 ms
+WARN 2020-04-30 23:23:40.258 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'baseController': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.service.BaseService<?, ?, ?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-04-30 23:23:40.260 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 23:23:40.272 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 23:23:40.343 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field baseService in com.example.demo.base.controller.BaseController required a bean of type 'com.example.demo.base.service.BaseService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.service.BaseService' in your configuration.
+
+INFO 2020-04-30 23:29:10.043 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 24428 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 23:29:10.045 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 23:29:10.418 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 23:29:10.797 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 23:29:10.804 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 23:29:10.805 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 23:29:10.805 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 23:29:10.890 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 23:29:10.890 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 816 ms
+WARN 2020-04-30 23:29:10.926 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'baseController': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.service.BaseService<?, ?, ?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-04-30 23:29:10.928 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 23:29:10.938 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 23:29:11.004 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field baseService in com.example.demo.base.controller.BaseController required a bean of type 'com.example.demo.base.service.BaseService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.service.BaseService' in your configuration.
+
+INFO 2020-04-30 23:49:38.523 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 26784 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 23:49:38.525 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 23:49:38.979 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 23:49:39.337 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 23:49:39.344 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 23:49:39.345 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 23:49:39.345 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 23:49:39.427 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 23:49:39.427 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 863 ms
+WARN 2020-04-30 23:49:39.464 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'baseController': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.service.BaseService<?, ?, ?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-04-30 23:49:39.466 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 23:49:39.477 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 23:49:39.546 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field baseService in com.example.demo.base.controller.BaseController required a bean of type 'com.example.demo.base.service.BaseService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.service.BaseService' in your configuration.
+
+INFO 2020-04-30 23:52:06.760 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 24344 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 23:52:06.763 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 23:52:07.243 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 23:52:07.579 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 23:52:07.586 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 23:52:07.586 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 23:52:07.587 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 23:52:07.663 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 23:52:07.663 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 849 ms
+WARN 2020-04-30 23:52:07.698 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'baseController': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.service.BaseService<?, ?, ?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-04-30 23:52:07.700 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 23:52:07.710 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 23:52:07.771 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field baseService in com.example.demo.base.controller.BaseController required a bean of type 'com.example.demo.base.service.BaseService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.service.BaseService' in your configuration.
+
+INFO 2020-04-30 23:53:10.457 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 13796 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 23:53:10.460 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 23:53:10.841 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 23:53:11.174 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 23:53:11.180 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 23:53:11.181 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 23:53:11.181 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 23:53:11.248 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 23:53:11.248 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 754 ms
+WARN 2020-04-30 23:53:11.281 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'baseController': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.service.BaseService<?, ?, ?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-04-30 23:53:11.283 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 23:53:11.293 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 23:53:11.365 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field baseService in com.example.demo.base.controller.BaseController required a bean of type 'com.example.demo.base.service.BaseService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.service.BaseService' in your configuration.
+
+INFO 2020-04-30 23:55:28.459 [main] com.example.demo.com.example.demo.DemoApplication-Starting com.example.demo.com.example.demo.DemoApplication on LAPTOP-C1QADBMM with PID 7592 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-04-30 23:55:28.463 [main] com.example.demo.com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-04-30 23:55:28.758 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[mapper.*.mapper]' package. Please check your configuration.
+WARN 2020-04-30 23:55:28.857 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-04-30 23:55:29.187 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-04-30 23:55:29.193 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-04-30 23:55:29.194 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-04-30 23:55:29.194 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 23:55:29.270 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 23:55:29.271 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 767 ms
+WARN 2020-04-30 23:55:29.305 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'baseController': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.service.BaseService<?, ?, ?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-04-30 23:55:29.307 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-04-30 23:55:29.316 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-04-30 23:55:29.375 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field baseService in com.example.demo.base.controller.BaseController required a bean of type 'com.example.demo.base.service.BaseService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.service.BaseService' in your configuration.
+

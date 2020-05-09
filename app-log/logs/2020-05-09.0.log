@@ -1,0 +1,1621 @@
+INFO 2020-05-09 19:18:33.275 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 19436 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 19:18:33.278 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 19:18:33.738 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 19:18:33.892 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 19:18:33.903 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 19:18:34.446 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 19:18:34.456 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 19:18:34.457 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 19:18:34.457 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 19:18:34.549 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 19:18:34.550 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1221 ms
+WARN 2020-05-09 19:18:34.600 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.service.BaseService<com.example.demo.user.vo.User, com.example.demo.user.vo.AddUserVo, com.example.demo.user.vo.EditUserVo>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 19:18:34.603 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 19:18:34.617 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 19:18:34.709 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field baseService in com.example.demo.base.controller.BaseController required a bean of type 'com.example.demo.base.service.BaseService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.service.BaseService' in your configuration.
+
+INFO 2020-05-09 19:18:44.327 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 2888 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 19:18:44.331 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 19:18:44.814 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 19:18:44.946 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 19:18:44.955 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 19:18:45.442 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 19:18:45.454 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 19:18:45.454 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 19:18:45.454 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 19:18:45.538 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 19:18:45.538 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1140 ms
+WARN 2020-05-09 19:18:45.588 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 19:18:45.590 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 19:18:45.603 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 19:18:45.686 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 19:21:08.112 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 30004 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 19:21:08.114 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 19:21:08.441 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 19:21:08.535 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 19:21:08.543 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 19:21:08.923 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 19:21:08.930 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 19:21:08.930 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 19:21:08.931 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 19:21:09.002 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 19:21:09.002 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 850 ms
+WARN 2020-05-09 19:21:09.048 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 19:21:09.050 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 19:21:09.060 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 19:21:09.125 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 19:22:07.968 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 17512 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 19:22:07.971 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 19:22:08.368 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 19:22:08.477 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 19:22:08.484 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 19:22:08.845 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 19:22:08.851 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 19:22:08.852 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 19:22:08.852 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 19:22:08.926 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 19:22:08.927 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 909 ms
+WARN 2020-05-09 19:22:08.975 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 19:22:08.978 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 19:22:08.988 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 19:22:09.065 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 19:25:01.901 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 29204 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 19:25:01.905 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 19:25:02.413 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 19:25:02.561 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 19:25:02.570 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 19:25:02.989 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 19:25:02.996 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 19:25:02.996 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 19:25:02.996 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 19:25:03.074 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 19:25:03.074 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1118 ms
+WARN 2020-05-09 19:25:03.123 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 19:25:03.125 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 19:25:03.136 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 19:25:03.213 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 19:36:07.247 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 16944 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 19:36:07.249 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 19:36:07.651 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 19:36:07.774 [main] o.m.s.mapper.ClassPathMapperScanner-Skipping MapperFactoryBean with name 'baseMapper' and 'com.example.demo.base.dao.BaseMapper' mapperInterface. Bean already defined with the same name!
+WARN 2020-05-09 19:36:07.774 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 19:36:08.176 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 19:36:08.183 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 19:36:08.185 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 19:36:08.185 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 19:36:08.259 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 19:36:08.260 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 957 ms
+WARN 2020-05-09 19:36:08.410 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseMapper' defined in file [D:\example\target\classes\com\example\demo\base\dao\BaseMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+INFO 2020-05-09 19:36:08.413 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 19:36:08.420 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 19:36:08.429 [main] o.s.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseMapper' defined in file [D:\example\target\classes\com\example\demo\base\dao\BaseMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:18)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseMapper' defined in file [D:\example\target\classes\com\example\demo\base\dao\BaseMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseMapper' defined in file [D:\example\target\classes\com\example\demo\base\dao\BaseMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 32 common frames omitted
+Caused by: tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.setSqlSource(MapperHelper.java:378)
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.processMappedStatement(MapperHelper.java:297)
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.processConfiguration(MapperHelper.java:283)
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:93)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 42 common frames omitted
+Caused by: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at tk.mybatis.mapper.mapperhelper.MapperTemplate.setSqlSource(MapperTemplate.java:256)
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.setSqlSource(MapperHelper.java:375)
+	... 48 common frames omitted
+Caused by: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at tk.mybatis.mapper.mapperhelper.MapperTemplate.getEntityClass(MapperTemplate.java:170)
+	at tk.mybatis.mapper.provider.base.BaseSelectProvider.existsWithPrimaryKey(BaseSelectProvider.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at tk.mybatis.mapper.mapperhelper.MapperTemplate.setSqlSource(MapperTemplate.java:246)
+	... 49 common frames omitted
+INFO 2020-05-09 19:48:27.589 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 19372 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 19:48:27.592 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 19:48:28.001 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 19:48:28.106 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 19:48:28.114 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 19:48:28.519 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 19:48:28.526 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 19:48:28.527 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 19:48:28.527 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 19:48:28.601 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 19:48:28.601 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 947 ms
+WARN 2020-05-09 19:48:28.646 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 19:48:28.648 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 19:48:28.660 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 19:48:28.734 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 19:51:56.018 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 11204 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 19:51:56.020 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 19:51:56.371 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 19:51:56.473 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 19:51:56.479 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 19:51:56.845 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 19:51:56.852 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 19:51:56.852 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 19:51:56.853 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 19:51:56.920 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 19:51:56.920 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 852 ms
+WARN 2020-05-09 19:51:56.969 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 19:51:56.971 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 19:51:56.982 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 19:51:57.051 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 19:52:18.613 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 2212 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 19:52:18.615 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 19:52:18.972 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 19:52:19.068 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 19:52:19.076 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 19:52:19.455 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 19:52:19.462 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 19:52:19.463 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 19:52:19.463 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 19:52:19.533 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 19:52:19.534 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 872 ms
+WARN 2020-05-09 19:52:19.582 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 19:52:19.584 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 19:52:19.595 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 19:52:19.661 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 19:54:38.253 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 23108 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 19:54:38.255 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 19:54:38.614 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 19:54:38.713 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 19:54:38.721 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 19:54:39.098 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 19:54:39.106 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 19:54:39.106 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 19:54:39.107 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 19:54:39.180 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 19:54:39.180 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 885 ms
+WARN 2020-05-09 19:54:39.227 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 19:54:39.229 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 19:54:39.239 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 19:54:39.303 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 20:27:33.761 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 25672 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 20:27:33.763 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 20:27:34.226 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 20:27:34.350 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 20:27:34.357 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 20:27:34.760 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 20:27:34.768 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 20:27:34.768 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 20:27:34.768 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 20:27:34.848 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 20:27:34.848 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1020 ms
+WARN 2020-05-09 20:27:34.898 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 20:27:34.902 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 20:27:34.913 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 20:27:34.988 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 20:29:02.076 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 20376 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 20:29:02.081 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 20:29:02.539 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 20:29:02.670 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 20:29:02.678 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 20:29:03.064 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 20:29:03.082 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 20:29:03.082 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 20:29:03.082 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 20:29:03.153 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 20:29:03.153 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1029 ms
+WARN 2020-05-09 20:29:03.204 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 20:29:03.206 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 20:29:03.216 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 20:29:03.287 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 21:03:15.914 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 15892 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 21:03:15.923 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 21:03:16.278 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 21:03:16.378 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+WARN 2020-05-09 21:03:16.385 [main] o.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 21:03:16.758 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 21:03:16.765 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 21:03:16.765 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 21:03:16.765 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 21:03:16.831 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 21:03:16.831 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 861 ms
+WARN 2020-05-09 21:03:16.878 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 21:03:16.880 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 21:03:16.894 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 21:03:16.970 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 21:04:19.701 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 1160 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 21:04:19.704 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 21:04:20.071 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 21:04:20.226 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 21:04:20.553 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 21:04:20.560 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 21:04:20.560 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 21:04:20.560 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 21:04:20.630 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 21:04:20.630 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 879 ms
+WARN 2020-05-09 21:04:20.676 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 21:04:20.678 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 21:04:20.689 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 21:04:20.755 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 21:04:37.105 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 18344 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 21:04:37.108 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 21:04:37.464 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 21:04:37.613 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 21:04:37.971 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 21:04:37.978 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 21:04:37.978 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 21:04:37.978 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 21:04:38.054 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 21:04:38.055 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 902 ms
+WARN 2020-05-09 21:04:38.099 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 21:04:38.101 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 21:04:38.111 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 21:04:38.187 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 21:05:27.354 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 22064 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 21:05:27.357 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 21:05:27.705 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 21:05:27.842 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 21:05:28.171 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 21:05:28.178 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 21:05:28.178 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 21:05:28.178 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 21:05:28.249 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 21:05:28.249 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 849 ms
+WARN 2020-05-09 21:05:28.294 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 21:05:28.296 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 21:05:28.306 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 21:05:28.374 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 21:06:22.426 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 20332 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 21:06:22.429 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 21:06:22.763 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 21:06:22.904 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 21:06:23.234 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 21:06:23.240 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 21:06:23.241 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 21:06:23.241 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 21:06:23.310 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 21:06:23.310 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 841 ms
+WARN 2020-05-09 21:06:23.356 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 21:06:23.358 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 21:06:23.369 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 21:06:23.438 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 21:08:23.996 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 17248 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 21:08:24.001 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 21:08:24.351 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 21:08:24.509 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 21:08:24.838 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 21:08:24.844 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 21:08:24.845 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 21:08:24.845 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 21:08:24.916 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 21:08:24.917 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 866 ms
+WARN 2020-05-09 21:08:24.962 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 21:08:24.964 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 21:08:24.975 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 21:08:25.048 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 21:10:00.856 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 14964 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 21:10:00.859 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 21:10:01.287 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 21:10:01.457 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 21:10:01.797 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 21:10:01.804 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 21:10:01.804 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 21:10:01.804 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 21:10:01.878 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 21:10:01.878 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 963 ms
+WARN 2020-05-09 21:10:01.924 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 21:10:01.926 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 21:10:01.937 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 21:10:02.005 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 23:28:27.155 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 20992 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:28:27.157 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 23:28:27.534 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.*.mapper]' package. Please check your configuration.
+WARN 2020-05-09 23:28:27.741 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 23:28:28.078 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:28:28.085 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:28:28.085 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:28:28.086 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:28:28.160 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:28:28.160 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 958 ms
+INFO 2020-05-09 23:28:28.297 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:28:28.474 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-05-09 23:28:28.969 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-05-09 23:28:29.749 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:28:29.757 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:28:29.759 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-05-09 23:28:29.772 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-05-09 23:28:30.923 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-05-09 23:28:30.980 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-05-09 23:28:30.982 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-05-09 23:28:30.984 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-05-09 23:28:30.984 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-05-09 23:28:30.991 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-05-09 23:28:31.021 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+INFO 2020-05-09 23:28:31.021 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+INFO 2020-05-09 23:28:31.022 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+INFO 2020-05-09 23:28:31.025 [main] t.m.m.a.MapperCacheDisabler-Clear EntityHelper entityTableMap cache.
+INFO 2020-05-09 23:28:34.162 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:28:34.181 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-05-09 23:28:34.184 [main] com.example.demo.DemoApplication-Started DemoApplication in 7.653 seconds (JVM running for 8.537)
+INFO 2020-05-09 23:29:48.381 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-05-09 23:29:48.384 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-05-09 23:29:48.385 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:29:53.289 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 11024 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:29:53.292 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 23:29:53.679 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.**.mapper]' package. Please check your configuration.
+WARN 2020-05-09 23:29:53.834 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 23:29:54.178 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:29:54.186 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:29:54.186 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:29:54.186 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:29:54.262 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:29:54.262 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 904 ms
+WARN 2020-05-09 23:29:54.310 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 23:29:54.313 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 23:29:54.330 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 23:29:54.411 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 23:36:40.071 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 7640 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:36:40.075 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+WARN 2020-05-09 23:36:40.443 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo.**.mapper]' package. Please check your configuration.
+WARN 2020-05-09 23:36:40.613 [main] t.m.s.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+INFO 2020-05-09 23:36:40.950 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:36:40.957 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:36:40.957 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:36:40.957 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:36:41.032 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:36:41.033 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 909 ms
+WARN 2020-05-09 23:36:41.078 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 23:36:41.081 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 23:36:41.095 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 23:36:41.171 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 23:41:34.043 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 11216 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:41:34.045 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-05-09 23:41:34.920 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:41:34.927 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:41:34.928 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:41:34.928 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:41:35.004 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:41:35.005 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 908 ms
+WARN 2020-05-09 23:41:35.052 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 23:41:35.055 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 23:41:35.072 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 23:41:35.151 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 23:41:53.012 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 2960 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:41:53.015 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-05-09 23:41:53.863 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:41:53.869 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:41:53.870 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:41:53.870 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:41:53.945 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:41:53.945 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 868 ms
+WARN 2020-05-09 23:41:53.995 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.base.dao.BaseMapper<com.example.demo.user.vo.User>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2020-05-09 23:41:53.997 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 23:41:54.012 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 23:41:54.092 [main] o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.example.demo.base.service.impl.BaseServiceImpl required a bean of type 'com.example.demo.base.dao.BaseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.base.dao.BaseMapper' in your configuration.
+
+INFO 2020-05-09 23:42:36.647 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 600 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:42:36.650 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-05-09 23:42:37.511 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:42:37.517 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:42:37.518 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:42:37.518 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:42:37.590 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:42:37.590 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 893 ms
+WARN 2020-05-09 23:42:37.829 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\example\target\classes\com\example\demo\user\mapper\UserMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+INFO 2020-05-09 23:42:37.831 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 23:42:37.839 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 23:42:37.847 [main] o.s.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\example\target\classes\com\example\demo\user\mapper\UserMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:18)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\example\target\classes\com\example\demo\user\mapper\UserMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\example\target\classes\com\example\demo\user\mapper\UserMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 32 common frames omitted
+Caused by: tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.setSqlSource(MapperHelper.java:378)
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.processMappedStatement(MapperHelper.java:297)
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.processConfiguration(MapperHelper.java:283)
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:93)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 42 common frames omitted
+Caused by: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at tk.mybatis.mapper.mapperhelper.MapperTemplate.setSqlSource(MapperTemplate.java:256)
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.setSqlSource(MapperHelper.java:375)
+	... 48 common frames omitted
+Caused by: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at tk.mybatis.mapper.mapperhelper.MapperTemplate.getEntityClass(MapperTemplate.java:170)
+	at tk.mybatis.mapper.provider.base.BaseSelectProvider.existsWithPrimaryKey(BaseSelectProvider.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at tk.mybatis.mapper.mapperhelper.MapperTemplate.setSqlSource(MapperTemplate.java:246)
+	... 49 common frames omitted
+INFO 2020-05-09 23:44:28.032 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 13468 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:44:28.035 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-05-09 23:44:28.905 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:44:28.913 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:44:28.914 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:44:28.914 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:44:28.983 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:44:28.984 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 900 ms
+WARN 2020-05-09 23:44:29.219 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\example\target\classes\com\example\demo\user\mapper\UserMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+INFO 2020-05-09 23:44:29.222 [main] o.a.catalina.core.StandardService-Stopping service [Tomcat]
+INFO 2020-05-09 23:44:29.231 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR2020-05-09 23:44:29.238 [main] o.s.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/v1/user': Unsatisfied dependency expressed through field 'baseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\example\target\classes\com\example\demo\user\mapper\UserMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:18)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\example\target\classes\com\example\demo\user\mapper\UserMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\example\target\classes\com\example\demo\user\mapper\UserMapper.class]: Invocation of init method failed; nested exception is tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 32 common frames omitted
+Caused by: tk.mybatis.mapper.MapperException: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.setSqlSource(MapperHelper.java:378)
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.processMappedStatement(MapperHelper.java:297)
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.processConfiguration(MapperHelper.java:283)
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:93)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 42 common frames omitted
+Caused by: tk.mybatis.mapper.MapperException: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at tk.mybatis.mapper.mapperhelper.MapperTemplate.setSqlSource(MapperTemplate.java:256)
+	at tk.mybatis.mapper.mapperhelper.MapperHelper.setSqlSource(MapperHelper.java:375)
+	... 48 common frames omitted
+Caused by: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.TypeVariableImpl cannot be cast to java.lang.Class
+	at tk.mybatis.mapper.mapperhelper.MapperTemplate.getEntityClass(MapperTemplate.java:170)
+	at tk.mybatis.mapper.provider.base.BaseSelectProvider.existsWithPrimaryKey(BaseSelectProvider.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at tk.mybatis.mapper.mapperhelper.MapperTemplate.setSqlSource(MapperTemplate.java:246)
+	... 49 common frames omitted
+INFO 2020-05-09 23:45:32.012 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 24464 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:45:32.015 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-05-09 23:45:32.862 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:45:32.869 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:45:32.870 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:45:32.870 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:45:32.941 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:45:32.942 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 870 ms
+INFO 2020-05-09 23:45:33.328 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:45:33.436 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-05-09 23:45:33.865 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-05-09 23:45:34.694 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:45:34.703 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:45:34.706 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-05-09 23:45:34.718 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-05-09 23:45:35.813 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-05-09 23:45:35.879 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-05-09 23:45:35.880 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-05-09 23:45:35.882 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-05-09 23:45:35.883 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-05-09 23:45:35.892 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-05-09 23:45:35.925 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+INFO 2020-05-09 23:45:35.925 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+INFO 2020-05-09 23:45:35.926 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+INFO 2020-05-09 23:45:35.926 [main] t.m.m.a.MapperCacheDisabler-Clear EntityHelper entityTableMap cache.
+INFO 2020-05-09 23:45:35.942 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:45:35.962 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-05-09 23:45:35.965 [main] com.example.demo.DemoApplication-Started DemoApplication in 4.554 seconds (JVM running for 5.349)
+INFO 2020-05-09 23:45:49.972 [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-05-09 23:45:49.972 [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+INFO 2020-05-09 23:45:49.978 [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet-Completed initialization in 5 ms
+INFO 2020-05-09 23:45:50.085 [http-nio-8081-exec-1] c.e.d.b.service.impl.BaseServiceImpl-Add one object start
+ERROR2020-05-09 23:45:50.190 [http-nio-8081-exec-1] c.e.d.b.service.impl.BaseServiceImpl-add object error
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+### The error may involve com.example.demo.user.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_think_user  ( del_flag,user_name,real_name ) VALUES( ?,?,? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy78.insert(Unknown Source)
+	at com.example.demo.base.service.impl.BaseServiceImpl.insert(BaseServiceImpl.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy79.insert(Unknown Source)
+	at com.example.demo.base.controller.BaseController.AddObject(BaseController.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 69 common frames omitted
+INFO 2020-05-09 23:49:12.475 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:49:12.476 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-05-09 23:49:12.479 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-05-09 23:49:17.372 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 11544 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:49:17.376 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-05-09 23:49:18.198 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:49:18.205 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:49:18.205 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:49:18.205 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:49:18.279 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:49:18.279 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 855 ms
+INFO 2020-05-09 23:49:18.719 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:49:18.828 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-05-09 23:49:19.260 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-05-09 23:49:20.051 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:49:20.059 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:49:20.062 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-05-09 23:49:20.075 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-05-09 23:49:21.213 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-05-09 23:49:21.280 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-05-09 23:49:21.281 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-05-09 23:49:21.283 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-05-09 23:49:21.283 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-05-09 23:49:21.292 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-05-09 23:49:21.319 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+INFO 2020-05-09 23:49:21.320 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+INFO 2020-05-09 23:49:21.320 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+INFO 2020-05-09 23:49:21.320 [main] t.m.m.a.MapperCacheDisabler-Clear EntityHelper entityTableMap cache.
+INFO 2020-05-09 23:49:21.337 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:49:21.386 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-05-09 23:49:21.389 [main] com.example.demo.DemoApplication-Started DemoApplication in 4.658 seconds (JVM running for 5.475)
+INFO 2020-05-09 23:49:25.728 [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-05-09 23:49:25.728 [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+INFO 2020-05-09 23:49:25.734 [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet-Completed initialization in 6 ms
+INFO 2020-05-09 23:49:25.831 [http-nio-8081-exec-1] c.e.d.b.service.impl.BaseServiceImpl-Add one object start
+ERROR2020-05-09 23:49:25.925 [http-nio-8081-exec-1] c.e.d.b.service.impl.BaseServiceImpl-add object error
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+### The error may involve com.example.demo.user.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_think_user  ( del_flag,user_name,real_name ) VALUES( ?,?,? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy78.insert(Unknown Source)
+	at com.example.demo.base.service.impl.BaseServiceImpl.insert(BaseServiceImpl.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy79.insert(Unknown Source)
+	at com.example.demo.base.controller.BaseController.AddObject(BaseController.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 69 common frames omitted
+INFO 2020-05-09 23:52:43.879 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:52:43.879 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-05-09 23:52:43.883 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-05-09 23:53:02.899 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 25932 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:53:02.905 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-05-09 23:53:03.784 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:53:03.790 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:53:03.791 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:53:03.791 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:53:03.870 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:53:03.870 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 913 ms
+INFO 2020-05-09 23:53:04.280 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:53:04.388 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-05-09 23:53:04.850 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-05-09 23:53:05.670 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:53:05.678 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:53:05.681 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-05-09 23:53:05.692 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-05-09 23:53:06.868 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-05-09 23:53:06.925 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-05-09 23:53:06.927 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-05-09 23:53:06.928 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-05-09 23:53:06.929 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-05-09 23:53:06.936 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-05-09 23:53:06.967 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+INFO 2020-05-09 23:53:06.967 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+INFO 2020-05-09 23:53:06.968 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+INFO 2020-05-09 23:53:06.968 [main] t.m.m.a.MapperCacheDisabler-Clear EntityHelper entityTableMap cache.
+INFO 2020-05-09 23:53:06.986 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:53:07.003 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-05-09 23:53:07.006 [main] com.example.demo.DemoApplication-Started DemoApplication in 4.754 seconds (JVM running for 5.566)
+INFO 2020-05-09 23:53:14.424 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:53:14.425 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-05-09 23:53:14.427 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-05-09 23:53:19.230 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 27628 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:53:19.233 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-05-09 23:53:20.061 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:53:20.068 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:53:20.069 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:53:20.069 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:53:20.160 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:53:20.160 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 879 ms
+INFO 2020-05-09 23:53:20.553 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:53:20.662 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-05-09 23:53:21.079 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-05-09 23:53:21.879 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:53:21.885 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:53:21.887 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-05-09 23:53:21.899 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-05-09 23:53:22.989 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-05-09 23:53:23.046 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-05-09 23:53:23.047 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-05-09 23:53:23.048 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-05-09 23:53:23.049 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-05-09 23:53:23.056 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-05-09 23:53:23.087 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+INFO 2020-05-09 23:53:23.087 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+INFO 2020-05-09 23:53:23.088 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+INFO 2020-05-09 23:53:23.088 [main] t.m.m.a.MapperCacheDisabler-Clear EntityHelper entityTableMap cache.
+INFO 2020-05-09 23:53:23.105 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:53:23.123 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-05-09 23:53:23.126 [main] com.example.demo.DemoApplication-Started DemoApplication in 4.537 seconds (JVM running for 5.327)
+INFO 2020-05-09 23:57:17.508 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:57:17.509 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+INFO 2020-05-09 23:57:17.512 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+INFO 2020-05-09 23:57:22.239 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 12996 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:57:22.242 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-05-09 23:57:23.081 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:57:23.088 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:57:23.088 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:57:23.088 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:57:23.158 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:57:23.158 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 869 ms
+INFO 2020-05-09 23:57:23.537 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:57:23.648 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-05-09 23:57:24.082 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-05-09 23:57:24.872 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:57:24.878 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:57:24.880 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-05-09 23:57:24.889 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-05-09 23:57:25.990 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-05-09 23:57:26.047 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-05-09 23:57:26.049 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-05-09 23:57:26.050 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-05-09 23:57:26.052 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-05-09 23:57:26.059 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-05-09 23:57:26.088 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+INFO 2020-05-09 23:57:26.089 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+INFO 2020-05-09 23:57:26.089 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+INFO 2020-05-09 23:57:26.089 [main] t.m.m.a.MapperCacheDisabler-Clear EntityHelper entityTableMap cache.
+INFO 2020-05-09 23:57:26.106 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:57:26.127 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-05-09 23:57:26.130 [main] com.example.demo.DemoApplication-Started DemoApplication in 4.536 seconds (JVM running for 5.354)
+INFO 2020-05-09 23:57:29.244 [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-05-09 23:57:29.244 [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+INFO 2020-05-09 23:57:29.249 [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet-Completed initialization in 5 ms
+ERROR2020-05-09 23:57:29.452 [http-nio-8081-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+### The error may involve com.example.demo.user.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_think_user  ( del_flag,user_name,real_name ) VALUES( ?,?,? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy78.insert(Unknown Source)
+	at com.example.demo.user.service.impl.UserServiceImpl.insert(UserServiceImpl.java:21)
+	at com.example.demo.user.service.impl.UserServiceImpl.insert(UserServiceImpl.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy79.insert(Unknown Source)
+	at com.example.demo.base.controller.BaseController.AddObject(BaseController.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+WARN 2020-05-09 23:59:05.460 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s275ms581µs).
+INFO 2020-05-09 23:59:44.842 [main] com.example.demo.DemoApplication-Starting DemoApplication on LAPTOP-C1QADBMM with PID 13436 (D:\example\target\classes started by Tyler Wong in D:\example)
+INFO 2020-05-09 23:59:44.845 [main] com.example.demo.DemoApplication-The following profiles are active: dev
+INFO 2020-05-09 23:59:45.692 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+INFO 2020-05-09 23:59:45.698 [main] o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:59:45.699 [main] o.a.catalina.core.StandardService-Starting service [Tomcat]
+INFO 2020-05-09 23:59:45.699 [main] o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-05-09 23:59:45.768 [main] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+INFO 2020-05-09 23:59:45.768 [main] o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 866 ms
+INFO 2020-05-09 23:59:46.150 [main] o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-05-09 23:59:46.264 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+INFO 2020-05-09 23:59:46.698 [main] com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+INFO 2020-05-09 23:59:47.487 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:59:47.496 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOGLOCK
+INFO 2020-05-09 23:59:47.498 [main] liquibase.executor.jvm.JdbcExecutor-SELECT `LOCKED` FROM test.DATABASECHANGELOGLOCK WHERE ID=1
+INFO 2020-05-09 23:59:47.508 [main] l.lockservice.StandardLockService-Successfully acquired change log lock
+INFO 2020-05-09 23:59:48.582 [main] l.changelog.DatabaseChangeLog-Reading resource: liquibase/changelog/changelog-tyler-1.0.sql
+INFO 2020-05-09 23:59:48.642 [main] liquibase.executor.jvm.JdbcExecutor-SELECT MD5SUM FROM test.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+INFO 2020-05-09 23:59:48.644 [main] liquibase.executor.jvm.JdbcExecutor-SELECT COUNT(*) FROM test.DATABASECHANGELOG
+INFO 2020-05-09 23:59:48.646 [main] l.c.StandardChangeLogHistoryService-Reading from test.DATABASECHANGELOG
+INFO 2020-05-09 23:59:48.646 [main] liquibase.executor.jvm.JdbcExecutor-SELECT * FROM test.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO 2020-05-09 23:59:48.655 [main] l.lockservice.StandardLockService-Successfully released change log lock
+INFO 2020-05-09 23:59:48.685 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+INFO 2020-05-09 23:59:48.685 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+INFO 2020-05-09 23:59:48.686 [main] t.m.m.a.MapperCacheDisabler-Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+INFO 2020-05-09 23:59:48.686 [main] t.m.m.a.MapperCacheDisabler-Clear EntityHelper entityTableMap cache.
+INFO 2020-05-09 23:59:48.703 [main] o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+INFO 2020-05-09 23:59:48.720 [main] o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2020-05-09 23:59:48.723 [main] com.example.demo.DemoApplication-Started DemoApplication in 4.479 seconds (JVM running for 5.224)
+INFO 2020-05-09 23:59:51.553 [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-05-09 23:59:51.553 [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+INFO 2020-05-09 23:59:51.558 [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet-Completed initialization in 5 ms
+ERROR2020-05-09 23:59:59.893 [http-nio-8081-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+### The error may involve com.example.demo.user.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_think_user  ( del_flag,user_name,real_name ) VALUES( ?,?,? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown column 'del_flag' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy78.insert(Unknown Source)
+	at com.example.demo.user.service.impl.UserServiceImpl.insert(UserServiceImpl.java:21)
+	at com.example.demo.user.service.impl.UserServiceImpl.insert(UserServiceImpl.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy79.insert(Unknown Source)
+	at com.example.demo.base.controller.BaseController.AddObject(BaseController.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
