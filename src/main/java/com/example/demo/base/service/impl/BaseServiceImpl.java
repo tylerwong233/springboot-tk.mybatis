@@ -5,6 +5,8 @@ import com.example.demo.base.service.BaseService;
 import com.example.demo.base.vo.AddEntityVo;
 import com.example.demo.base.vo.BaseEntity;
 import com.example.demo.base.vo.EditEntityVo;
+import com.example.demo.util.ResponseCode;
+import com.example.demo.util.ResponseFormat;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -31,7 +33,7 @@ public abstract class BaseServiceImpl<T extends BaseEntity,U extends AddEntityVo
             return "success";
         }catch (Exception e){
             log.error("add object error",e);
-            return "failed";
+            return ResponseFormat.error(ResponseCode.ERROR_SERVICE_VALIDATOR,e.getMessage().toString());
         }
     }
 

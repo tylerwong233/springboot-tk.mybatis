@@ -3,11 +3,13 @@ package com.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @EnableTransactionManagement
+@EnableAspectJAutoProxy
 @SpringBootApplication(scanBasePackages = "com.example.demo")
 @MapperScan("com.example.demo.*.mapper")
 @ComponentScan(basePackages = "com.example.demo.*")
