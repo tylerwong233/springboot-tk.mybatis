@@ -13,12 +13,4 @@ public class User extends BaseEntity {
 
     private String realName;
 
-    private User toEntity(){
-        User u = new User();
-        u.setUserName(userName);
-        u.setRealName(realName);
-        u.setDelFlag(false);
-        return u;
-    }
-
 }
