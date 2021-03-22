@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79ccfe63-45bb-483b-9c0a-5e05fc4958fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-log/logs/2020-05-10.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/user/vo/SerachConditionVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/user/vo/SearchConditionVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/user/vo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/user/vo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/base/controller/BaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/base/dao/BaseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/base/service/BaseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/base/service/impl/BaseServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/base/vo/AddEntityVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/base/vo/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/base/vo/EditEntityVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/base/vo/QueryVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/user/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/user/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/user/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/user/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/user/vo/AddUserVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/user/vo/EditUserVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/user/vo/SerachConditionVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/user/vo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/i18n/message/message.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/i18n/message/message_en_US.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/i18n/message/message_zh_CN.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liquibase/changelog/changelog-tyler-1.0.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liquibase/master.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/example-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-    </list>
+    <list default="true" id="79ccfe63-45bb-483b-9c0a-5e05fc4958fb" name="Default Changelist" comment="111" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -403,8 +365,23 @@
       <workItem from="1588762728546" duration="7721000" />
       <workItem from="1588859221928" duration="6056000" />
       <workItem from="1589023075381" duration="15618000" />
-      <workItem from="1616421651259" duration="416000" />
+      <workItem from="1616421651259" duration="735000" />
     </task>
+    <task id="LOCAL-00001" summary="111">
+      <created>1616422139119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616422139119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="111">
+      <created>1616422183340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616422183340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -470,6 +447,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
